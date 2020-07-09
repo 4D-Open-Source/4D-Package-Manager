@@ -3,7 +3,8 @@ The start of a package manager component to let 4D developers find open sourced 
 
 
 ### Requirements Wish List
-- Able to search methods that developers have published on github. At a minium, can search methods that have been published on 4D Open Source github
+- Able to search methods that developers have published on github. At a minium, can search methods that have been published on 4D Open Source github.
+  __NOTE__ [dbeaubien/4D-Github-API-Component](https://github.com/dbeaubien/4D-Github-API-Component) has sample code that shows how to fetch a file off a github repository.
 - Developers can select methods they want and have them added to their structures. The component will need to keep track (in the structure's Resources folder) which methods were downloaded and which version.
 - The package manager should be able to detect when there is a newer verion on github and let the developer update their code
 - Be able to do the same but for components.
